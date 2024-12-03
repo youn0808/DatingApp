@@ -15,7 +15,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Entities.AppUser",
+        "Type": "API.DTOs.UserDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -41,7 +41,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Entities.AppUser",
+        "Type": "API.DTOs.UserDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
