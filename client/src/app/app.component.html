@@ -1,1 +1,7 @@
-<h3>{{ title }}</h3>
+<ul>
+  @for(user of users; track user.id){
+  <li>{{ user.userName }}</li>
+  }
+
+  <li *ngFor="let user of users">{{ user.userName }}</li>
+</ul>
